@@ -17,8 +17,8 @@ IMCApp is a simple Android application that calculates the Body Mass Index (Indi
 
 ## Screenshots
 
-<img src="assets/images/img1.png" width="200"/>
-<img src="assets/images/img2.png" width="200"/>
+<img src="images/img1.png" width="200"/>
+<img src="images/img2.png" width="200"/>
 
 ## Installation
 
@@ -57,4 +57,5 @@ Compile SDK: 34 (or latest installed)
 
 License
 This project is open-source and free to use.
+
 
