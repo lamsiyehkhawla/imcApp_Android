@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:rotationX="3">
+
+    <EditText
+        android:id="@+id/poidsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Poids en Kg"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/tailleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Taille en cm"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer IMC" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Votre IMC est:"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/categoryImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
