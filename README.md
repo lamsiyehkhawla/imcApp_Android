@@ -46,16 +46,20 @@ The app launcher activity is declared in `AndroidManifest.xml` as:
         <category android:name="android.intent.category.LAUNCHER" />
     </intent-filter>
 </activity>
+```
 
-
-Requirements
+## Requirements
 Android Studio
 
 Minimum SDK: 21
 
 Compile SDK: 34 (or latest installed)
 
-License
+## License
 This project is open-source and free to use.
+
+## Author 
+Khawla lamsiyeh
+
 
 
